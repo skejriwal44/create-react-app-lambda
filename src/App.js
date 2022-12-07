@@ -6,6 +6,7 @@ class LambdaDemo extends Component {
   constructor(props) {
     super(props)
     this.state = { loading: false, msg: null }
+    
   }
 
   handleClick = api => e => {
